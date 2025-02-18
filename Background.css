@@ -1,0 +1,150 @@
+h1{
+    margin-top:2%;
+    margin-left:4%;
+    font-size: 400%;
+    font-family: 'SM_Font';
+    color: #ffff00;
+    font-weight: normal;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+@font-face {
+    font-family: SM_Font;
+    src: url('Assets/super-mario-ds-version-original.ttf')  format('truetype');
+}  
+div {
+      font-family: SM_Font;
+	  margin-left: 25%;
+	  margin-bottom: 3%;
+}
+
+
+body {
+    background-image: url('Assets/loogie.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+button {
+    display: inline-block;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    background-repeat: no-repeat;
+    filter: drop-shadow(1px 1px 4px #000000);
+}
+
+#Hit {
+    background-image: url('Assets/Hit.png');
+    height:9%;
+    width:20%;
+    top:80%;
+    left:15%;
+    cursor: pointer;
+    background-size: contain;
+}
+#Double_Down {
+    background-image: url('Assets/Double\ Down.png');
+    height:9%;
+    width:20%;
+    top:80%;
+    left:40%;
+    cursor: pointer;
+    background-size: contain;
+}
+#Stand {
+    background-image: url('Assets/Stand.png');
+    height:9%;
+    width:20%;
+    top:80%;
+    left:65%;
+    cursor: pointer;
+    background-size: contain;
+}
+#Reset {
+    background-image: url('Assets/Reset.png');
+    height:9%;
+    width:20%;
+    top:10%;
+    left:76%;
+    cursor: pointer;
+    background-size: contain;
+}
+#Bet {
+    background-image: url('Assets/Bet.gif');
+    height:9%;
+    width:5%;
+    top:15%;
+    left:1%;
+	cursor: pointer;
+    background-size: contain;
+}
+#Coin {
+    background: url('Assets/Coin.png') no-repeat left;
+    height:4%;
+    width:2%;
+    top:6%;
+    left:2%;
+    background-size: contain;
+}
+#Logo {
+    background: url('Assets/Logo.png') no-repeat left;
+    height:10%;
+    width:50%;
+    top:0%;
+    left:27%;
+    background-size: contain;
+}
+#dealer-hand img {
+    height:25%;
+    width:10%;
+    top:15%;
+    left:41%;
+}
+#player-hand img {
+    height:25%;
+    width:10%;
+    top:50%;
+    left:41%;
+}
+
+
+#Win {
+    background: url('Assets/YouWin.png') no-repeat left;
+    height:30%;
+    width:50%;
+    top:26%;
+    left:24%;
+    background-size: contain;
+    display: none;
+}
+#Lose {
+    background: url('Assets/YouLose.png') no-repeat left;
+    height:30%;
+    width:50%;
+    top:26%;
+    left:24%;
+    background-size: contain;
+    display: none;
+}
+#Blackjack {
+    background: url('Assets/Blackjack.png') no-repeat left;
+    height:30%;
+    width:50%;
+    top:26%;
+    left:24%;
+    background-size: contain;
+    display: none;
+}
+#Push {
+    background: url('Assets/Push.png') no-repeat left;
+    height:30%;
+    width:50%;
+    top:26%;
+    left:24%;
+    background-size: contain;
+    display: none;
+}
